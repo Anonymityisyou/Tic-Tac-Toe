@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".FirstActivity">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start"
+        android:text="Single player"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+
+        android:fontFamily="@font/aclonica"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/twoPlayers"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start"
+        android:text="Two players"
+        android:textColor="#fff"
+        android:layout_margin="15dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/aclonica"
+        android:padding="10dp"
+        android:id="@+id/singlePlayer"
+        android:layout_above="@+id/twoPlayers"/>
+
+</RelativeLayout>

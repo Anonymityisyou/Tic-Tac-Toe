@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".single">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/winner"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:capitalize="words"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:layout_margin="35dp"
+        android:fontFamily="@font/aclonica"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TableRow >
+            <ImageView android:background="@drawable/border"
+
+
+                android:scaleType="center"
+
+
+                android:id="@+id/box0"/>
+            <ImageView android:background="@drawable/border"
+                android:id="@+id/box1"
+
+
+
+                android:scaleType="center"
+                />
+            <ImageView android:background="@drawable/border"
+                android:id="@+id/box2"
+
+
+
+                android:scaleType="center"
+                />
+
+        </TableRow>
+        <TableRow>
+            <ImageView android:background="@drawable/border"
+                android:id="@+id/box3"
+
+
+
+                android:scaleType="center"
+                />
+            <ImageView android:background="@drawable/border"
+                android:id="@+id/box4"
+
+
+
+                android:scaleType="center"
+                />
+            <ImageView android:background="@drawable/border"
+
+
+                android:id="@+id/box5"
+                android:scaleType="center"
+                />
+
+        </TableRow>
+        <TableRow android:layout_height="match_parent">
+            <ImageView android:background="@drawable/border"
+                android:id="@+id/box6"
+
+
+                android:scaleType="center"
+                />
+            <ImageView android:background="@drawable/border"
+                android:id="@+id/box7"
+
+
+                android:scaleType="center"
+                />
+            <ImageView android:background="@drawable/border"
+                android:scaleType="center"
+
+
+                android:id="@+id/box8"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/startact"
+        android:layout_centerInParent="true"
+        android:text="Restart"
+        android:id="@+id/restart"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:fontFamily="@font/aclonica"/>
+
+</RelativeLayout>
